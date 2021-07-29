@@ -1,0 +1,71 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    background-color: rgba(255, 187, 0, 0.733);
+}
+body{
+    padding-left: 100px;
+}
+h1 {
+    text-align: center;
+    color: rgb(255, 255, 255);
+    font-size: 150px;
+}
+.ronnie {
+    background-color: rgb(255, 255, 255);
+    border: 1px;
+    display: inline-block;
+    width: 500px;
+    margin: 20px 20px;
+    text-align: justify;
+    display: flexbox;
+    float: left;
+    padding: 80px;
+    
+}
+.margie {
+    background-color: rgb(255, 255, 255);
+    border: 1px;
+    display: inline-block;
+    width: 500px;
+    margin: 20px 20px;
+    text-align: justify;
+    display: flexbox;
+    float: left;
+    padding: 80px;
+}
+
+.laura {
+    background-color: rgb(255, 255, 255);
+    border: 1px;
+    display: inline-block;
+    width: 500px;
+    margin: 20px 20px;
+    text-align: justify;
+    display: flexbox;
+    float: left;
+    padding: 80px;
+}
+
+img {
+    width: 200px;
+    height: 200px;
+    border-radius: 150px;
+    justify-content: center;
+    margin-left: 50px;
+}
+
+h2{
+    text-align: center;
+}
+
+p {
+    background-color:  purple;
+    color: rgb(255, 255, 255);
+
+   
+}

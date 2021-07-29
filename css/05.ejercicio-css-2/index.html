@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Ejercicio CSS 2</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+  <header>
+    <h1>Formulario</h1>
+  </header>
+  <form action="" method="GET">
+    <fieldset>
+      <legend>Registro</legend>
+      <label for="name">Nombre:</label>
+      <input type="text" name="name" id="name" required autofocus />
+      <label for="email">Correo Electrónico:</label>
+      <input type="email" name="email" id="email" required />
+      <label for="url">URL:</label>
+      <input type="text" name="url" id="url" placeholder="Escribe la URL de tu página web personal" />
+    </fieldset>
+    <fieldset>
+      <label for="date">Fecha</label>
+      <input type="date" name="date" id="date" />
+      <label for="time">Tiempo</label>
+      <input type="time" name="time" id="time" />
+      <label for="datetime"> Fecha y Hora</label>
+      <input type="datetime" name="datetime" id="datetime" />
+      <label for="month">Mes</label>
+      <input type="month" name="month" id="month" />
+    </fieldset>
+    <fieldset>
+      <label for="week">Semana</label>
+      <input type="week" name="week" id="week" />
+      <label for="number">Numero</label>
+      <input type="number" name="number" id="number" min="-10" max="10" />
+      <label for="tel">Telefono</label>
+      <input type="tel" name="tel" id="tel" value="+34 543 234 578" readonly /> 
+      <label for="search">Busqueda</label>
+      <input type="search" id="search" name="search" disabled />
+      <button type="button">search</button>
+      <label for="favouritecolor">Color favorito</label>
+      <input type="color" name="color" id="color" />
+    </fieldset>
+      <button type="submit">Enviar</button>
+    </form>
+</body>
+
+</html>
